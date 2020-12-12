@@ -1,4 +1,4 @@
-Supplier Name,Material ID,Specification,Country (Plant)
+Supplier_Name,Material_ID,Specification,Country_Plant
 Supplier 1,Material 1,Specification 5,Country 6
 Supplier 2,Material 2,Specification 6,Country 7
 Supplier 3,Material 3,Specification 7,Country 8
