@@ -1,37 +1,37 @@
 Supplier_Name,Material_ID,Specification,Country_Plant,Transactions
-Supplier 1,Material 1,Specification 5,Country 6,Transactions1
-Supplier 2,Material 2,Specification 6,Country 7,Transactions2
-Supplier 3,Material 3,Specification 7,Country 8,Transactions3
-Supplier 1,Material 4,Specification 8,Country 9,Transactions4
-Supplier 2,Material 5,Specification 9,Country 5,Transactions5
-Supplier 3,Material 1,Specification 10,Country 6,Transactions6
-Supplier 1,Material 2,Specification 11,Country 7,Transactions7
-Supplier 2,Material 3,Specification 1,Country 8,Transactions8
-Supplier 3,Material 4,Specification 2,Country 9,Transactions9
-Supplier 1,Material 5,Specification 3,Country 10,Transactions10
-Supplier 2,Material 1,Specification 4,Country 11,Transactions11
-Supplier 3,Material 2,Specification 5,Country 12,Transactions12
-Supplier 1,Material 3,Specification 6,Country 4,Transactions13
-Supplier 2,Material 4,Specification 7,Country 5,Transactions14
-Supplier 3,Material 5,Specification 8,Country 6,Transactions15
-Supplier 1,Material 1,Specification 9,Country 7,Transactions16
-Supplier 2,Material 2,Specification 10,Country 8,Transactions17
-Supplier 3,Material 3,Specification 11,Country 9,Transactions18
-Supplier 1,Material 4,Specification 1,Country 10,Transactions19
-Supplier 2,Material 5,Specification 2,Country 1,Transactions20
-Supplier 3,Material 1,Specification 3,Country 2,Transactions21
-Supplier 1,Material 2,Specification 4,Country 3,Transactions22
-Supplier 2,Material 3,Specification 3,Country 4,Transactions23
-Supplier 3,Material 4,Specification 4,Country 5,Transactions24
-Supplier 1,Material 5,Specification 5,Country 4,Transactions25
-Supplier 2,Material 1,Specification 6,Country 5,Transactions26
-Supplier 3,Material 2,Specification 7,Country 6,Transactions27
-Supplier 1,Material 3,Specification 8,Country 7,Transactions28
-Supplier 2,Material 4,Specification 9,Country 8,Transactions29
-Supplier 3,Material 5,Specification 3,Country 9,Transactions30
-Supplier 1,Material 1,Specification 4,Country 10,Transactions31
-Supplier 2,Material 2,Specification 5,Country 11,Transactions32
-Supplier 3,Material 3,Specification 6,Country 12,Transactions33
-Supplier 1,Material 4,Specification 7,Country 4,Transactions34
-Supplier 2,Material 5,Specification 8,Country 5,Transactions35
-Supplier 3,Material 5,Specification 9,Country 6,Transactions36
+Supplier1,Material 1,Specification 5,Country 6,Transactions1
+Supplier2,Material 2,Specification 6,Country 7,Transactions2
+Supplier3,Material 3,Specification 7,Country 8,Transactions3
+Supplier1,Material 4,Specification 8,Country 9,Transactions4
+Supplier2,Material 5,Specification 9,Country 5,Transactions5
+Supplier3,Material 1,Specification 10,Country 6,Transactions6
+Supplier1,Material 2,Specification 11,Country 7,Transactions7
+Supplier2,Material 3,Specification 1,Country 8,Transactions8
+Supplier3,Material 4,Specification 2,Country 9,Transactions9
+Supplier1,Material 5,Specification 3,Country 10,Transactions10
+Supplier2,Material 1,Specification 4,Country 11,Transactions11
+Supplier3,Material 2,Specification 5,Country 12,Transactions12
+Supplier1,Material 3,Specification 6,Country 4,Transactions13
+Supplier2,Material 4,Specification 7,Country 5,Transactions14
+Supplier3,Material 5,Specification 8,Country 6,Transactions15
+Supplier1,Material 1,Specification 9,Country 7,Transactions16
+Supplier2,Material 2,Specification 10,Country 8,Transactions17
+Supplier3,Material 3,Specification 11,Country 9,Transactions18
+Supplier1,Material 4,Specification 1,Country 10,Transactions19
+Supplier2,Material 5,Specification 2,Country 1,Transactions20
+Supplier3,Material 1,Specification 3,Country 2,Transactions21
+Supplier1,Material 2,Specification 4,Country 3,Transactions22
+Supplier2,Material 3,Specification 3,Country 4,Transactions23
+Supplier3,Material 4,Specification 4,Country 5,Transactions24
+Supplier1,Material 5,Specification 5,Country 4,Transactions25
+Supplier2,Material 1,Specification 6,Country 5,Transactions26
+Supplier3,Material 2,Specification 7,Country 6,Transactions27
+Supplier1,Material 3,Specification 8,Country 7,Transactions28
+Supplier2,Material 4,Specification 9,Country 8,Transactions29
+Supplier3,Material 5,Specification 3,Country 9,Transactions30
+Supplier1,Material 1,Specification 4,Country 10,Transactions31
+Supplier2,Material 2,Specification 5,Country 11,Transactions32
+Supplier3,Material 3,Specification 6,Country 12,Transactions33
+Supplier1,Material 4,Specification 7,Country 4,Transactions34
+Supplier2,Material 5,Specification 8,Country 5,Transactions35
+Supplier3,Material 5,Specification 9,Country 6,Transactions36
