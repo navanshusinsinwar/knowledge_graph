@@ -18,18 +18,18 @@
                 server_password: "acceptors-speeches-preservation",
                 labels: {
                     "Troll": {
-                        caption: "ProductName",
+                        caption: "categoryID",
                         size: "UnitPrice",
                         community: "Quantity"
                     }
                 },
                 relationships: {
-                    "SUPPLIES": {
+                    "PART_OF": {
                         caption: false,
                         thickness: "Quantity"
                     }
                 },
-                initial_cypher: "MATCH p=(:Troll)-[:SUPPLIES]->(:Troll) RETURN p"
+                initial_cypher: "MATCH p=(:Troll)-[:PART_OF]->(:Troll) RETURN p"
             }
 
             var viz = new NeoVis.default(config);
