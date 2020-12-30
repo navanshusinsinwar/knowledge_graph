@@ -1,15 +1,24 @@
 <html>
     <head>
-        <title>Neovis Example 4</title>
+        <title>Neovis.js Simple Example</title>
         <style type="text/css">
+            html, body {
+                font: 16pt arial;
+            }
+    
             #viz {
                 width: 900px;
                 height: 700px;
+                border: 1px solid lightgray;
+                font: 22pt arial;
             }
         </style>
         <script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
     </head>   
-    <script>
+<script type="text/javascript">
+
+        var viz;
+
         function draw() {
             var config = {
                 container_id: "viz",
@@ -17,22 +26,26 @@
                 server_user: "neo4j",
                 server_password: "acceptors-speeches-preservation",
                 labels: {
-                    "Category": {
-                        "caption": "categoryID",
-                        "size": "UnitPrice",
-                        "community": "Quantity"
+                    "Character": {
+                        "caption": "name",
+                        "size": "pagerank",
+                        "community": "community",
+                        "title_properties": [
+                            "name",
+                            "pagerank"
+                        ]
                     }
                 },
                 relationships: {
-                    "PART_OF": {
-                        "caption": false,
-                        "thickness": "Quantity"
+                    "INTERACTS": {
+                        "thickness": "weight",
+                        "caption": false
                     }
                 },
-                initial_cypher: "MATCH (category:Category {categoryID: row.CategoryID})"
-            }
+                initial_cypher: "MATCH (n)-[r:INTERACTS]->(m) RETURN *"
+            };
 
-            var viz = new NeoVis.default(config);
+            viz = new NeoVis.default(config);
             viz.render();
         }
     </script>
