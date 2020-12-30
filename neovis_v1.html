@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Neovis Example 3</title>
+        <title>Neovis Example 4</title>
         <style type="text/css">
             #viz {
                 width: 900px;
@@ -17,19 +17,19 @@
                 server_user: "neo4j",
                 server_password: "acceptors-speeches-preservation",
                 labels: {
-                    "Troll": {
-                        caption: "categoryID",
-                        size: "UnitPrice",
-                        community: "Quantity"
+                    "Category": {
+                        "caption": "categoryID",
+                        "size": "UnitPrice",
+                        "community": "Quantity"
                     }
                 },
                 relationships: {
                     "PART_OF": {
-                        caption: false,
-                        thickness: "Quantity"
+                        "caption": false,
+                        "thickness": "Quantity"
                     }
                 },
-                initial_cypher: "MATCH p=(:Troll)-[:PART_OF]->(:Troll) RETURN p"
+                initial_cypher: "MATCH (category:Category {categoryID: row.CategoryID})"
             }
 
             var viz = new NeoVis.default(config);
